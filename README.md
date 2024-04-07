@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+<br/>
+<p align="center">
+  <a href="https://github.com/ShaanCoding/ReadME-Generator">
+<!--     <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">WarrantBuddy</h3>
 
-## Available Scripts
+  <p align="center">
+    Digital Warrant Management System
 
-In the project directory, you can run:
+Website Link- https://warrant-buddy-hackofest.vercel.app/ 
+PPT Link- 
+Website Overview Link- 
+Figma Overview Link- 
+This repository contains the source code for a Digital Warrant Management System developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The platform aims to revolutionize the legal process by introducing digital tracking and verification systems, providing comprehensive legal assistance, and empowering individuals with accessible resources.
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Digital Tracking and Verification
+- *Warrant Tracking*: Introduces a digital tracking system for arrest warrants, allowing individuals to verify warrant authenticity and prevent hoaxes.
+- *Accelerated Process*: Streamlines legal processes, making them faster and more efficient.
+- *Environmental Sustainability*: Reduces paper usage and contributes to environmental sustainability by digitizing warrant tracking.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Transparency and Accountability
+- *Record Keeping*: Records the time and location of successful arrests and executed search warrants to ensure transparency in law enforcement operations.
+- *Prevention of Fraud*: Prevents fake arrests, fraudulent searches, and enhances accountability within the justice system.
+- *Geo-Tagging*: Geo-tags the location of arrests, providing verifiable data for legal proceedings.
 
-### `npm test`
+### User Empowerment
+- *Family Notification*: Enables family members to verify arrest warrants using OTP, enhancing user empowerment and trust in the system.
+- *Reporting System*: Provides a platform for reporting arrests made without warrants, empowering individuals in asserting their rights and holding law enforcement accountable.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Comprehensive Legal Assistance
+- *AI Chatbot*: Introduces an AI chatbot to provide instant access to legal knowledge and insights into constitutional information.
+- *Educational Resources*: Offers valuable educational resources alongside tracking and verification features, enhancing user understanding of legal processes.
 
-### `npm run build`
+### Accessible Legal Representation
+- *Lawyer Booking*: Facilitates easy access to legal representation by allowing users to book lawyers directly from the website.
+- *Case Tracking*: Users can track case progress and apply for bail directly on the website, ensuring transparency and convenience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Objectives
+- *Accessibility*: Enhance accessibility and understanding of legal processes for users by leveraging AI technology.
+- *Empowerment*: Empower individuals to verify legal actions, report any wrongdoing, and access helpful legal information, ultimately promoting fairness and protecting rights.
+- *Prevention*: Completely stop the cases of illegal arrests reported, where police illegally arrest people to put pressure and alter testimony.
+- *Fraud Prevention*: Stop frauds where individuals receive calls claiming that their close ones are arrested and will be released if a certain amount is paid.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+- *Track Warrants*: Track warrants and cases anytime, from anywhere in the world.
+- *Warrant Authenticity*: Check the authenticity of a warrant issued against you.
+- *Family Notification*: Immediately notify your close relatives about the issue.
+- *Geo-Tagging*: Utilize geo-tagging to record the location of an arrest.
+- *Legal Awareness*: Spread awareness about civil and criminal laws.
+- *Legal Consultation*: Consult lawyers and easily apply for bail.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
+- *Web Development Framework*: MERN Stack (MongoDB, Express.js, React.js, Node.js)
+- *Geolocation*: Google Maps API
+- *Integrations*: Aadhar API, SMS Gateway API
+- *Deployment*: AWS/Azure, Docker, Kubernetes
+- *Natural Language Processing*: ML, NLU Models, API Integration
 
-### `npm run eject`
+## Getting Started
+1. *Clone Repository*: Clone this repository to your local machine.
+2. *Install Dependencies*: Install dependencies using npm install in both the client and server directories.
+3. *Set Environment Variables*: Set up environment variables for API keys and other sensitive information.
+4. *Run Application*: Run the client and server using npm start.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors
+- [Aniket Kumar](https://github.com/aniket-4971) 
+- [Satyam](https://github.com/Satyam1345) 
+- [Lakshya Parashar](https://github.com/Lakshya044)
+- [Rai Chirag Kumar](https://github.com/ChiragRai31)
+- 
