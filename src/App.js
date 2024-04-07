@@ -12,6 +12,7 @@ import "./App.css";
 // import Upper_Navbar from "./Components/Upper_Navbar";
 // import Div_Guidelines from "./Components/Div_Guidelines";
 // import Profile from "./Page2/Profile";
+import ChatBot from "./ChatBot";
 import LoginForm from "./Login/LoginForm";
 import SignUpChoice from "./SignUp/SignUpChoice";
 import Home from "./Components/Home";
@@ -26,9 +27,11 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+        {/* <Route path="/" element={<ChatBot />} /> */}
           <Route path="/" element={<Home />} />
           {/* <Route path="/signupChoice" element={<SignUpChoice/>} /> */}
           <Route path="/signup" element={<SignUpChoice />} />
+          <Route path="/bot" element={<ChatBot />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/signupJudge" element={<JudgeProfile />} />
           <Route path="/signupClient" element={<ClientProfile />} />

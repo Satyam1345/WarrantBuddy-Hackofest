@@ -1,8 +1,15 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function HomeGrid() {
+  const navigate = useNavigate();
+  const bot = () => {
+    // Navigate to the sign-up component
+    navigate("/bot");
+  };
   return (
+    
     <div className="container">
       <div className="row d-flex justify-content-between">
         <div className="col-md-4 m-2 homeCard d-flex flex-column text-center justify-content-between">
@@ -24,7 +31,7 @@ function HomeGrid() {
           <div className="mb-2">
             <button
               className="btn btn-sm me-2 btn-outline-success m-2"
-              type="button"
+              type="button" onClick={bot}
             >
               CLICK HERE
             </button>
